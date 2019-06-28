@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FriendCard from "../FriendCard";
 import Wrapper from "../Wrapper";
 import Title from "../Title";
-import friends from "../friends.json";
+import friends from "../../friends.json";
 
 class Cards extends Component {
     // Setting this.state.friends to the friends json array
@@ -22,16 +22,10 @@ class Cards extends Component {
         return (
             <>
                 <Wrapper>
-                    <Title>Friends List</Title>
+                    <Title>Select A Card</Title>
                     {this.state.friends.map(friend => (
                         <FriendCard
-                            removeFriend={this.removeFriend}
-                            id={friend.id}
-                            key={friend.id}
-                            name={friend.name}
                             image={friend.image}
-                            occupation={friend.occupation}
-                            location={friend.location}
                         />
                     ))}
                 </Wrapper>
