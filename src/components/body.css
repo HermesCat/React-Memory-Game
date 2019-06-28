@@ -1,0 +1,28 @@
+:root {
+    --light-shade: #F0EDEC;
+    --light-accent: rgb(113, 180, 211);
+    --main-color: #2975F1;
+    --main-gradient: linear-gradient(to left, rgb(40, 67, 224), var(--main-color));
+    --dark-accent: #152EC4;
+    --dark-shade: #3C383C; 
+    --lato: 'Lato', sans-serif;
+    --roboto: 'Roboto Slab', serif;
+    --karla: 'Karla', sans-serif;
+}
+
+#root, html {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 93%;
+}
+
+body {
+    background: var(--light-shade);
+}
+
+.active {
+    color: var(--dark-shade);
+}

@@ -1,0 +1,12 @@
+footer {
+  min-height: 7%;
+  overflow: auto;
+  background: var( --main-gradient);
+  color: white;
+  font-style: var(--lato);
+  width: 100%;
+  text-align: center;
+  padding-top: 7px;
+  border-top: var(--dark-accent) 12px solid;
+}
+

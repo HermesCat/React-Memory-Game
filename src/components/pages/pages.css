@@ -1,0 +1,27 @@
+.btn-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-link:link {
+    text-decoration: none;
+  }
+  
+  .btn-link:visited {
+    text-decoration: none;
+  }
+  
+
+  .btn-link:active {
+    text-decoration: none;
+  }
+
+ #accordionCard {
+     background-image: linear-gradient(to right, var( --light-accent),  rgb(78, 155, 190));
+ }
